@@ -1,0 +1,155 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assests/apple-keyboard-ballpen-black-and-white-934062\ resize.jpg);
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+input {
+    background-image: url(assests/board-bright-design-235994.jpg);
+    border-radius: 5px;
+    width: 75px;
+    border: solid 1px black;
+}
+
+button {
+    border-radius: 5px;
+    border: hidden 1px black;
+    padding: 1px;
+    background-image: url(assests/board-bright-design-235994.jpg);
+    width: 75px
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+header li {
+    float: left;
+    
+}
+
+header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em 0em 1em 2.5em;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: whitesmoke;
+    
+}
+
+img {
+    border-radius: 5px;
+    border: hidden 1px black;
+}
+
+.containerMain {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 5%; 
+    background: transparent;
+    border-radius: 5px;
+}
+
+
+.p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+section.whiteBoard {
+    background: transparent;
+    /*background-color: rgba(255, 255, 255,0.1);*/
+	margin: 0 0 2.0em 200px;
+    padding: 1em  1em 0em 4em;
+	display: inline-block;
+    border-radius: 2em;
+    border: hidden 1px black;
+    /*box-shadow: 1px 1px 5px #777;*/
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background: transparent;
+    border: #ccc hidden 1px;
+    border-radius: 0.6em;
+    }
+
+.item {
+    margin: 5px;
+    padding: 5px; 
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+}
+
+.main-Text {
+    text-align: justify;
+    font-size: 10px;
+}
+
+.about {
+    margin-right: 68px;
+    padding: 15px;
+    height: 550px;
+    width: 275px;
+    font-size: 20px;
+    float: right;
+    background: transparent;
+    border-radius: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+}
+
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    margin-left: 50px;
+	padding-right: 0em;
+}
+
+footer ul li::after {
+	content: "| ";
+	padding-left: 0em;
+}
